@@ -173,7 +173,7 @@ router.get("/tasks", async (req, res) => {
       filter.completed = false;
     }
 
-    const tasks = await Task.find(filter);
+    const tasks = await Task.find(filter).sort({ createdAt: -1 });
     res.status(200).json(tasks);
   } catch (err) {
     res.status(500).json({ error: "An error occurred while fetching tasks" });
