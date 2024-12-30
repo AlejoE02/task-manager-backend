@@ -28,13 +28,14 @@ This is the backend of the Task Manager application. It provides RESTful API end
    ```
    PORT=5000
    MONGODB_URI=mongodb+srv://<username>:<password>@taskmanagercluster.sgpvk.mongodb.net/?retryWrites=true&w=majority&appName=TaskManagerCluster
+    - Credentials for MongoDB
+      - user: TaskManagerUser
+      - password: LJMupbaDdWgG9pBy
 4. Start the server
    ```
    npm start
 5. The API will be available at `http://localhost:5000`
-6. Credentials for MongoDB
-    - user: TaskManagerUser
-    - password: LJMupbaDdWgG9pBy
+    
 
 ## API Endpoints
 
