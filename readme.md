@@ -33,8 +33,8 @@ This is the backend of the Task Manager application. It provides RESTful API end
    npm start
 5. The API will be available at `http://localhost:5000`
 6. Credentials for MongoDB
-  - user: TaskManagerUser
-  - password: LJMupbaDdWgG9pBy
+  -- user: TaskManagerUser
+  -- password: LJMupbaDdWgG9pBy
 
 ## API Endpoints
 
