@@ -19,7 +19,7 @@ This is the backend of the Task Manager application. It provides RESTful API end
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/AlejoE02/task-manager-backend.git>
    cd task-manager-backend
 2. Install dependencies:
    ```bash
