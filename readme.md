@@ -52,8 +52,8 @@ For detailed documentation, visit the Swagger UI:
 http://localhost:5000/api-docs
 
 ## Development Scripts
-  `npm start`: Starts the server
-  `npm run dev`: Starts the server with hot reload using `nodemon`.
+  - `npm start`: Starts the server
+  - `npm run dev`: Starts the server with hot reload using `nodemon`.
 
 ## License
 
